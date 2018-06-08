@@ -1,0 +1,32 @@
+{
+   swd_accept
+   Memcheck:Value8
+   fun:swd_accept
+}
+
+{
+   swd_findbest
+   Memcheck:Value8
+   fun:swd_findbest
+}
+
+{
+   nrv2b_99_compress
+   Memcheck:Value8
+   obj:*libucl*
+   fun:ucl_nrv2b_99_compress
+}
+
+{
+   nrv2d_99_compress
+   Memcheck:Value8
+   obj:*libucl*
+   fun:ucl_nrv2d_99_compress
+}
+
+{
+   nrv2e_99_compress
+   Memcheck:Value8
+   obj:*libucl*
+   fun:ucl_nrv2e_99_compress
+}
